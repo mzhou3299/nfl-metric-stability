@@ -30,11 +30,11 @@ Analyzes 25 years of NFL play-by-play data to quantify how quickly team performa
 |---|---|---|
 | `off_pass_epa` | Offensive passing EPA per play | Offense |
 | `off_rush_epa` | Offensive rushing EPA per play | Offense |
-| `off_success` | Offensive success rate (all plays) | Offense |
+| `off_success` | Offensive success rate | Offense |
 | `def_pass_epa` | Defensive passing EPA allowed per play | Defense |
 | `def_rush_epa` | Defensive rushing EPA allowed per play | Defense |
-| `def_success` | Defensive success rate allowed (all plays) | Defense |
-| `turnover_rate` | Turnovers per play (INT + fumble lost) | Noise control |
+| `def_success` | Defensive success rate allowed | Defense |
+| `turnover_rate` | Turnovers per play | Noise control |
 
 `turnover_rate` is included specifically because it is expected to behave differently from every other metric: low internal consistency (fumble recoveries are close to random) but meaningful correlation with winning because turnovers directly affect game outcomes. That combination makes it a useful built-in contrast case.
 
