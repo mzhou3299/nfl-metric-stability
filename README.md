@@ -19,7 +19,7 @@ Analyzes 25 years of NFL play-by-play data to quantify how quickly team performa
 - **Offensive success rate** is the most stable metric after just 6 games (r=0.60)
 - **Offensive passing EPA** is the strongest predictor of future point differential (r=0.42 at N=6)
 - No individual EPA metric outperforms raw early-season point differential as a predictor (baseline r=0.47)
-- Leave-one-out opponent adjustment has negligible effect on stability — NFL schedules are balanced enough that within-season opponent variance is small
+- Within this sample, leave-one-out opponent adjustment had negligible effect, suggesting that opponent-strength variation was not a major driver of the observed stability patterns
 - Turnover rate never stabilizes across all 8 game windows, confirming it as a noise variable
 
 ---
